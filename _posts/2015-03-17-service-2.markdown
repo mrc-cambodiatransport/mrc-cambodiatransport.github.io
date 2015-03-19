@@ -1,0 +1,11 @@
+---
+title: Car
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: car.jpg
+alt: image-alt
+category: services
+description: For longer trips a car is the most comfortable way of getting around.
+
+---

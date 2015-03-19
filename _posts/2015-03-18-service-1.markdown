@@ -1,0 +1,12 @@
+---
+title: Tuk-tuk
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: tuktuk.jpg
+thumbnail: tuktuk.jpg
+alt: image-alt
+category: services
+description: Tuk-tuks are often the best way to get around in the city.
+
+---

@@ -1,0 +1,15 @@
+---
+title: Minivan
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: minivan3.jpg
+thumbnail: minivan-small.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: services
+description: My minivan can take up to 14 people. It is often used for picking
+ up people from the airport, and when going on longer trips with a group.
+
+---
