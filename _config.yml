@@ -3,8 +3,8 @@ url: http://mrc-cambodiatransport.github.io
 
 # Site settings
 title: Mr. C
-email: your-email@domain.com
-description: "Tuk-tuk, car and minivan services in Phnom Penh and the rest of Cambodia by Mr. C. English speaking driver and transportation organizer."
+email: mail@mrc-cambodiatransport.com
+description: "Tuk-tuk, car and minivan services in Phnom Penh and the rest of Cambodia by Mr. C. English speaking driver and tour organizer."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -16,23 +16,10 @@ color:
 people:
 - name: Mr. C
   pic: mrc
-  position: Driver and transportation organizer
+  position: Driver and tour organizer
   social:
     - title: facebook
       url: https://www.facebook.com/pages/Mr-Cs-Cambodia-Transport/430659350373852
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
 
 
 # Build settings
