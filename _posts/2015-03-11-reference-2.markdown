@@ -3,7 +3,7 @@ title: Danika Jade Pederzolli, Adelaide, Australia
 layout: default
 modal-id: 1
 date: 2015-03-11
-img: mrc_on_tour_orig.jpeg
+img: mrc/danika.jpg
 alt: image-alt
 category: references
 description: |
