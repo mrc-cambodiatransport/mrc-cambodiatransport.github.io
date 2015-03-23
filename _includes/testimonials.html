@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    {% for post in site.categories.references reversed %}
+    {% for post in site.categories.testimonial reversed %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
@@ -23,10 +23,7 @@
                         <p>{{ post.description }}</p>
                         <footer class="text-left">{{ post.title }}</footer>
                     </blockquote>
-                    <!--<p class="lead">{{ post.title }}</p>-->
-                    <!--{{ post.description }}-->
                 </div>
-                <!--<div class="col-lg-5 col-lg-offset-2 col-sm-6">-->
                 <div class="col-lg-5 col-sm-6">
                     <img class="img-responsive" src="img/{{ post.img }}" alt="">
                 </div>
@@ -50,25 +47,12 @@
                 <div class="col-lg-5 col-sm-6">
                     <img class="img-responsive" src="img/{{ post.img }}" alt="">
                 </div>
-                <!--<div class="col-lg-7 col-sm-6">-->
-                    <!--<p class="lead">{{ post.title }}</p>-->
-                    <!--{{ post.description }}-->
-                <!--</div>-->
                 <div class="col-lg-7 col-sm-6">
                 <blockquote>
                     <p>{{ post.description }}</p>
                     <footer class="text-left">{{ post.title }}</footer>
                 </blockquote>
                 </div>
-                <!--<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">-->
-                <!--<div class="col-lg-7 col-sm-push-5  col-sm-6">-->
-                    <!--<p class="lead">{{ post.title }}</p>-->
-                    <!--{{ post.description }}-->
-                <!--</div>-->
-                <!--<div class="col-lg-5 col-sm-pull-6  col-sm-6">-->
-                <!--<div class="col-lg-5 col-sm-pull-7  col-sm-6">-->
-                    <!--<img class="img-responsive" src="img/{{ post.img }}" alt="">-->
-                <!--</div>-->
             </div>
 
         </div>

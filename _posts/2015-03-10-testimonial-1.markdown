@@ -5,7 +5,7 @@ modal-id: 1
 date: 2015-03-10
 img: mrc/mrc_with_per_and_ingrid_at_evp.jpg
 alt: image-alt
-category: references
+category: testimonial
 description: |
     <p>Ingrid got to know Mr. C when she was working as a volunteer in Phnom Penh in 2014 for 2 months. Mr. C and his
     brother in law, Chan, drove her around town and on daytrips during her whole stay, and they became good friends.

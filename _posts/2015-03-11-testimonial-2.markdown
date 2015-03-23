@@ -5,7 +5,7 @@ modal-id: 1
 date: 2015-03-11
 img: mrc/danika.jpg
 alt: image-alt
-category: references
+category: testimonial
 description: |
     <p>I met Mr C on the first night of my trip to Cambodia. From day one he was polite, friendly and extremely helpful.
     Mr C went out of his way to try and help me and my friends with transport on weekends and to our placements during
