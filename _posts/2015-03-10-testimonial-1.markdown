@@ -1,9 +1,8 @@
 ---
 title: Ingrid Heyblom and Per Spilling, Oslo, Norway
 layout: default
-modal-id: 1
 date: 2015-03-10
-img: mrc/mrc_with_per_and_ingrid_at_evp.jpg
+img: testimonials/mrc_with_per_and_ingrid_at_evp.jpg
 alt: image-alt
 category: testimonial
 description: |

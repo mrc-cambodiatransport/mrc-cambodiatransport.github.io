@@ -1,9 +1,8 @@
 ---
 title: Danika Jade Pederzolli, Adelaide, Australia
 layout: default
-modal-id: 1
 date: 2015-03-11
-img: mrc/danika.jpg
+img: testimonials/danika.jpg
 alt: image-alt
 category: testimonial
 description: |
