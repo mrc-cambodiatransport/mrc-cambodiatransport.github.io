@@ -47,7 +47,9 @@ Now you can see the website by pointing your browser at `http://localhost:4000`
 ### How to add new testimonials to the website
 
 Add a new testimonial file in the `_posts` catalog. Copy one of the existing files and adjust it with the text 
-for the new testimonial. The filename should be in the following format: `yyyy-mm-dd-testimonial-n.markdown`
+for the new testimonial. The filename should be in the following format: 
+
+`yyyy-mm-dd-testimonial-n.markdown`
 
 And the content should have the following format:
 
