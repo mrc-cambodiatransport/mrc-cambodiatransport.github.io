@@ -80,17 +80,20 @@ git add <testimonial image file>
 git commit -m '<commit message>'
 ```
 
-Check locally on your own computer that it looks okay by running Jekyll locally from the project root directory:
+Check locally on your own computer that it looks okay by running Jekyll from the project root directory:
 
 ```
 jekyll serve 
 ```
 
-If everything looks okay you can push it to GitHub and it will "magically" be published to the public website.
+If everything looks okay you can push it to GitHub 
  
 ```
 git push 
 ```
+
+...and it will "magically" be published to the public website: 
+[www.mrc-cambodiatransport.com](http://www.mrc-cambodiatransport.com/).
 
 
 
