@@ -23,7 +23,7 @@ Check the website locally by running Jekyll:
 
 ```
 cd mrc-cambodiatransport.github.io
-jekyll serve 
+bundle exec jekyll serve 
 ```
 
 You should see something like this:
@@ -83,7 +83,7 @@ git commit -m '<commit message>'
 Check locally on your own computer that it looks okay by running Jekyll from the project root directory:
 
 ```
-jekyll serve 
+bundle exec jekyll serve 
 ```
 
 If everything looks okay you can push it to GitHub 
