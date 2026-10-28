@@ -3,7 +3,7 @@ title: Minivan 6pax
 layout: default
 modal-id: 2
 date: 2026-10-28
-img: minvan-6pax.jpg
+img: minivan-6pax.jpg
 alt: image-alt
 category: services
 description: This minivan can fit up to 6 people, and is comfortable for longer trips.
