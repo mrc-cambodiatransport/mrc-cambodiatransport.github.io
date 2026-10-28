@@ -1,0 +1,11 @@
+---
+title: Minivan 7pax
+layout: default
+modal-id: 2
+date: 2026-10-28
+img: minivan-7pax.jpg
+alt: image-alt
+category: services
+description: Another comfortable minivan that I can offer is this one that fits up to 7 people.
+
+---

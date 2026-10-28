@@ -1,4 +1,4 @@
-url: http://www.mrc-cambodiatransport.com
+url: https://www.mrc-cambodiatransport.com
 #baseurl: /
 
 # Site settings
@@ -6,7 +6,7 @@ title: Mr. C's Cambodia Transport and Tours
 email: c.cambodiatour@gmail.com
 description: "Tuk-tuk, car, and minivan services in Phnom Penh and the rest of Cambodia by Mr. C. English speaking driver and tour organizer. Always ready to go the extra mile for my customers."
 keywords: "Phnom Penh, english speaking driver, tuk-tuk, car driver, minivan driver, tour organizer"
-preview_image: http://www.mrc-cambodiatransport.com/img/site_preview.jpg
+preview_image: https://www.mrc-cambodiatransport.com/img/site_preview.jpg
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -28,6 +28,13 @@ people:
 markdown: kramdown
 permalink: pretty
 
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-61043662-1
+# Files that should not be copied into the built site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - vendor
+  - node_modules
+  - .idea
+  - .github

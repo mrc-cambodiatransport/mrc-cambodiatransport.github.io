@@ -6,6 +6,10 @@ the theme here: [github.com/desaiuditd/agency](https://github.com/desaiuditd/age
 
 For info on Jekyll see: [jekyllrb.com](https://jekyllrb.com)
 
+The site is built with Jekyll 4 and Bootstrap 5 (loaded from the jsDelivr CDN). It is built and deployed to GitHub
+Pages by the GitHub Actions workflow in `.github/workflows/pages.yml` on every push to `master`. In the GitHub
+repository settings, *Pages > Build and deployment > Source* must be set to **GitHub Actions**.
+
 ### How to install
 
 #### Install the required software
@@ -23,6 +27,7 @@ Check the website locally by running Jekyll:
 
 ```
 cd mrc-cambodiatransport.github.io
+bundle install
 bundle exec jekyll serve 
 ```
 

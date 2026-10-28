@@ -1,37 +1,24 @@
-/*!
- * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+// Small vanilla-JS replacement for the old jQuery-based theme scripts.
+document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.getElementById('mainNav');
+    var menu = document.getElementById('navbarMenu');
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+    // Shrink the navbar once the page has scrolled
+    function onScroll() {
+        nav.classList.toggle('navbar-shrink', window.scrollY > 100);
+    }
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // Highlight the current section in the navbar
+    new bootstrap.ScrollSpy(document.body, { target: '#mainNav', rootMargin: '0px 0px -60%' });
+
+    // Close the mobile menu after picking a link
+    document.querySelectorAll('#navbarMenu .nav-link').forEach(function (link) {
+        link.addEventListener('click', function () {
+            if (menu.classList.contains('show')) {
+                bootstrap.Collapse.getOrCreateInstance(menu).hide();
+            }
+        });
     });
-});
-
-// Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
-
-$('div.modal').on('show.bs.modal', function() {
-	var modal = this;
-	var hash = modal.id;
-	window.location.hash = hash;
-	window.onhashchange = function() {
-		if (!location.hash){
-			$(modal).modal('hide');
-		}
-	}
 });
