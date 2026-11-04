@@ -218,3 +218,6 @@ html { scroll-behavior: smooth; }
 .lb-close { top: 0; right: 0; }
 .lb-prev { left: 0; top: 50%; transform: translateY(-50%); }
 .lb-next { right: 0; top: 50%; transform: translateY(-50%); }
+
+/* Keep the navbar dark on the gallery page (its background is white, unlike the landing page hero) */
+.gallery-page .navbar-agency { background-color: #222; }
