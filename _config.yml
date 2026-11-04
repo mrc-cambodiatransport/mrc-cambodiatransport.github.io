@@ -31,6 +31,7 @@ permalink: pretty
 # Files that should not be copied into the built site
 exclude:
   - README.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
