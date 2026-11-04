@@ -221,3 +221,8 @@ html { scroll-behavior: smooth; }
 
 /* Keep the navbar dark on the gallery page (its background is white, unlike the landing page hero) */
 .gallery-page .navbar-agency { background-color: #222; }
+@media (min-width: 768px) {
+    /* Same compact size as the landing page navbar after scrolling */
+    .gallery-page .navbar-agency { padding: 10px 0; }
+    .gallery-page .navbar-agency .navbar-brand { font-size: 1.5em; }
+}
