@@ -100,9 +100,14 @@ git push
 ...and it will "magically" be published to the public website: 
 [www.mrc-cambodiatransport.com](http://www.mrc-cambodiatransport.com/).
 
+## Photo gallery
 
+The photos on the `/gallery/` page are listed in `_data/photos.yml`, in the order they are shown. The image files are in `img/photocollection/`.
 
+- **Add a caption:** fill in the `text:` line for that photo, e.g. `text: "Sunset at Angkor Wat"`. Photos with an empty `text:` show no caption.
+- **Add a photo:** put the file in `img/photocollection/` and add two lines at the end of `_data/photos.yml`:
 
-
-
-
+```
+- file: my_new_photo.jpg
+  text: ""
+```

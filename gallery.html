@@ -1,0 +1,25 @@
+---
+layout: gallery
+title: Photos - Mr. C's Cambodia Transport and Tours
+permalink: /gallery/
+---
+<section id="photos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Photos</h2>
+                <h3 class="section-subheading text-muted">Some of the places and activities you can experience on a tour with Mr. C.</h3>
+            </div>
+        </div>
+        <ul class="photo-gallery">
+            {% for photo in site.data.photos %}
+            {% assign src = photo.file | prepend: "/img/photocollection/" | prepend: site.baseurl %}
+            <li>
+                <a href="{{ src }}" data-caption="{{ photo.text | escape }}">
+                    <img src="{{ src }}" alt="{% if photo.text and photo.text != '' %}{{ photo.text | escape }}{% else %}Photo {{ forloop.index }} from a tour with Mr. C{% endif %}" loading="lazy">
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
