@@ -3,12 +3,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var nav = document.getElementById('mainNav');
     var menu = document.getElementById('navbarMenu');
 
-    // Shrink the navbar once the page has scrolled
-    function onScroll() {
-        nav.classList.toggle('navbar-shrink', window.scrollY > 100);
+    // Shrink the navbar once the page has scrolled (the gallery page keeps it compact all the time)
+    if (!document.body.classList.contains('gallery-page')) {
+        function onScroll() {
+            nav.classList.toggle('navbar-shrink', window.scrollY > 100);
+        }
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
     }
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
 
     // Highlight the current section in the navbar
     new bootstrap.ScrollSpy(document.body, { target: '#mainNav', rootMargin: '0px 0px -60%' });

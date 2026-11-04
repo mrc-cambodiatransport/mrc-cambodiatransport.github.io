@@ -80,7 +80,6 @@ img { max-width: 100%; height: auto; }
 @media (min-width: 768px) {
     .navbar-agency {
         padding: 25px 0;
-        background-color: transparent;
     }
     .navbar-agency .navbar-brand { font-size: 2em; transition: all .3s; }
     .navbar-agency.navbar-shrink { padding: 10px 0; background-color: #222; }
@@ -218,11 +217,3 @@ html { scroll-behavior: smooth; }
 .lb-close { top: 0; right: 0; }
 .lb-prev { left: 0; top: 50%; transform: translateY(-50%); }
 .lb-next { right: 0; top: 50%; transform: translateY(-50%); }
-
-/* Keep the navbar dark on the gallery page (its background is white, unlike the landing page hero) */
-.gallery-page .navbar-agency { background-color: #222; }
-@media (min-width: 768px) {
-    /* Same compact size as the landing page navbar after scrolling */
-    .gallery-page .navbar-agency { padding: 10px 0; }
-    .gallery-page .navbar-agency .navbar-brand { font-size: 1.5em; }
-}
