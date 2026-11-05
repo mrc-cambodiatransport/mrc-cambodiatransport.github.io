@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 Website for Mr. C's Cambodia Transport and Tours, a small tourist transport business in Phnom Penh
-(tuk-tuk, car and minivan services). Live at https://www.mrc-cambodiatransport.com (GitHub Pages, custom domain via `CNAME`).
+(car and minivan services). Live at https://www.mrc-cambodiatransport.com (GitHub Pages, custom domain via `CNAME`).
 The owner of the repo builds it as a favor for a friend, so keep things simple and low-maintenance.
 
 ## Working rules
